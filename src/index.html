@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NoteMaker</title>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img id="noteMaker" src="./logo/logo.png" height="55px"></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Take your Notes here</h1>
+        <div class="note">
+            <div class="note-body">
+                <h4 class="note-title">
+                    Add a Note
+                </h4>
+                <div class="form-group">
+                    <textarea class="form-control" id="addText" rows="3">
+					</textarea>
+                </div>
+                <button id="addBtn">
+                    Add Note
+                </button>
+            </div>
+        </div>
+
+        <p class="your-works">Your Notes</p>
+
+        <div id="notes">
+        </div>
+    </div>
+    <script src="/Webpack assignment/build/bundle.js"></script>
+</body>
+</html>
